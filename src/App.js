@@ -1,12 +1,8 @@
 import React from 'react';
-import ContextSample from './ContextSample';
+import Info from './Info';
 
 const App = () => {
-  return (
-    <div>
-      <h1>React Hooks Tutorial😎</h1>
-    </div>
-  );
+  return <Info />;
 };
 
 export default App;
