@@ -1,11 +1,14 @@
 import React from 'react';
+import ContextSample from './ContextSample';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>React Hooks Tutorial😎</h1>
+    <div>
+      <ContextSample />
+      <h1>Hello</h1>
+      <ContextSample />
     </div>
   );
-}
+};
 
 export default App;
