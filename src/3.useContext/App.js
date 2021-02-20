@@ -4,7 +4,9 @@ import ContextSample from './ContextSample';
 const App = () => {
   return (
     <div>
-      <h1>React Hooks Tutorial😎</h1>
+      <ContextSample />
+      <h1>Hello</h1>
+      <ContextSample />
     </div>
   );
 };
